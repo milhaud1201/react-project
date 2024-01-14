@@ -26,6 +26,7 @@ export function CarouselFeatures() {
               ))}
             </div>
           )}
+          placeholder="팀원 리뷰"
         >
           {new Array(2).fill("").map((_, i) => (
             <div
