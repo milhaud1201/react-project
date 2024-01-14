@@ -10,7 +10,7 @@ interface FeatureCardProps {
 
 export function FeatureCard({ icon: Icon, title, children }: FeatureCardProps) {
   return (
-    <Card color="transparent" shadow={false}>
+    <Card color="transparent" shadow={false} placeholder='explanation'>
       <CardBody className="grid justify-center text-center" placeholder='explanation'>
         <div className="mx-auto mb-6 grid h-12 w-12 place-items-center rounded-lg bg-gray-900 p-2.5 text-white shadow">
           <Icon className="h-5 w-5" />
