@@ -25,7 +25,7 @@ class VideoClip extends React.Component {
         </>
     }
 
-    _onReady(event) {
+    _onReady(event: any) {
         event.target.pauseVideo();
     }
 }
