@@ -46,7 +46,7 @@ export function CarouselFeatures() {
                     color="white"
                     className="font-medium uppercase"
                   >
-                    팀원 "박지현"
+                    팀원 박지현
                   </Typography>
                 </div>
               </div>
