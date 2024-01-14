@@ -63,9 +63,9 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar shadow={false} fullWidth className="border-0 sticky top-5 z-50">
+    <MTNavbar shadow={false} fullWidth className="border-0 sticky top-5 z-50" placeholder='explanation'>
       <div className="container mx-auto flex items-center justify-between">
-        <Typography color="blue-gray" className="text-lg font-bold">
+        <Typography color="blue-gray" className="text-lg font-bold" placeholder='explanation'>
           Deep Computer Vision LAB
         </Typography>
         <ul className="mr-20 hidden items-center gap-8 lg:flex">

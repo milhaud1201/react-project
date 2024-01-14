@@ -26,8 +26,8 @@ export function BookCard({
   offPrice,
 }: BookCardProps) {
   return (
-    <Card color="transparent" shadow={false}>
-      <CardHeader color="gray" floated={false} className="mx-0 mt-0 mb-6">
+    <Card color="transparent" shadow={false} placeholder='explanation'>
+      <CardHeader color="gray" floated={false} className="mx-0 mt-0 mb-6" placeholder='explanation'>
         <Image
           width={768}
           height={768}
@@ -36,8 +36,8 @@ export function BookCard({
           className="h-full w-full scale-[1.1] object-cover object-center"
         />
       </CardHeader>
-      <CardBody className="p-0">
-        <Typography color="blue" className="mb-2 text-xs !font-semibold">
+      <CardBody className="p-0" placeholder='explanation'>
+        <Typography color="blue" className="mb-2 text-xs !font-semibold" placeholder='explanation'>
           {category}
         </Typography>
         <a href="#">
@@ -45,11 +45,12 @@ export function BookCard({
             variant="h5"
             color="blue-gray"
             className="mb-3 font-bold normal-case xl:w-64"
+            placeholder='explanation'
           >
             {title}
           </Typography>
         </a>
-        <Typography className="mb-4 font-normal !text-gray-500">
+        <Typography className="mb-4 font-normal !text-gray-500" placeholder='explanation'>
           {desc}
         </Typography>
         <div className="flex gap-2">
@@ -57,10 +58,11 @@ export function BookCard({
             variant="h5"
             color="blue-gray"
             className={offPrice ? "line-through" : ""}
+            placeholder='explanation'
           >
             {price}
           </Typography>
-          <Typography variant="h5" color="red">
+          <Typography variant="h5" color="red" placeholder='explanation'>
             {offPrice}
           </Typography>
         </div>
