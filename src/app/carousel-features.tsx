@@ -38,6 +38,7 @@ export function CarouselFeatures() {
                   variant="lead"
                   color="white"
                   className="mb-5 text-xl font-normal "
+                  placeholder="프로젝트 설명"
                 >
                   Stable diffusion <br />
                   설명
@@ -48,6 +49,7 @@ export function CarouselFeatures() {
                     variant="small"
                     color="white"
                     className="font-medium uppercase"
+                    placeholder="팀원 이름"
                   >
                     팀원
                   </Typography>
