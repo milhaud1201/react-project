@@ -25,6 +25,7 @@ export function CarouselFeatures() {
               ))}
             </div>
           )}
+          placeholder="slider"
         >
           {new Array(2).fill("").map((_, i) => (
             <div
