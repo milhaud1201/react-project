@@ -43,8 +43,9 @@ export function Faq() {
               key={key}
               open={open === key + 1}
               onClick={() => handleOpen(key + 1)}
+              placeholder="Q&A"
             >
-              <AccordionHeader className="text-left text-gray-900">
+              <AccordionHeader className="text-left text-gray-900" placeholder="Q&A">
                 {title}
               </AccordionHeader>
               <AccordionBody>
