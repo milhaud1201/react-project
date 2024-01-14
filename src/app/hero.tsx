@@ -40,27 +40,6 @@ function Hero() {
               className="rounded-lg shadow-md"
               alt="flowers"
             />
-            {/* <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle9.svg"
-              className="-mt-28 rounded-lg shadow-md"
-              alt="flowers"
-            />
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle10.svg"
-              className="-mt-14 rounded-lg shadow-md"
-              alt="flowers"
-            />
-            <Image
-              width={768}
-              height={768}
-              src="/image/books/Rectangle11.svg"
-              className="-mt-20 rounded-lg shadow-md"
-              alt="flowers"
-            /> */}
           </div>
         </div>
       </div>
