@@ -41,6 +41,7 @@ function NavItem({ children, href }: NavItemProps) {
         variant="paragraph"
         color="gray"
         className="flex items-center gap-2 font-medium text-gray-900"
+        placeholder='explanation'
       >
         {children}
       </Typography>
