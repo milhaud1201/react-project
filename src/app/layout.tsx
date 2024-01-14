@@ -26,7 +26,6 @@ export default function RootLayout({
         <script
           defer
           data-site="DCV LAB AI VIDEO SHOWCASE"
-          src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>

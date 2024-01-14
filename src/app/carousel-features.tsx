@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import { Typography, Carousel } from "@material-tailwind/react";
-import ReactPlaceholder from 'react-placeholder';
-import "react-placeholder/lib/reactPlaceholder.css";
 
 
 
@@ -28,7 +26,6 @@ export function CarouselFeatures() {
               ))}
             </div>
           )}
-          placeholder="slider"
         >
           {new Array(2).fill("").map((_, i) => (
             <div
@@ -36,16 +33,14 @@ export function CarouselFeatures() {
               className="!relative flex grid-cols-1 flex-col-reverse gap-6 px-10 py-14 md:grid md:grid-cols-5  md:gap-14 md:py-20"
             >
               <div className="col-span-3 flex flex-col items-start justify-center">
-                <ReactPlaceholder type='text' ready={false} rows={6} color='#E0E0E0'>
-                  <Typography
-                    variant="lead"
-                    color="white"
-                    className="mb-5 text-xl font-normal "
-                  >
-                    Stable diffusion <br />
-                    설명
-                  </Typography>
-                </ReactPlaceholder>
+                <Typography
+                  variant="lead"
+                  color="white"
+                  className="mb-5 text-xl font-normal "
+                >
+                  Stable diffusion <br />
+                  설명
+                </Typography>
                 <div className="flex items-center gap-2">
                   😃
                   <Typography
