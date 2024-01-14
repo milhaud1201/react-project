@@ -13,15 +13,17 @@ export function TopBookCategories() {
           variant="paragraph"
           color="blue-gray"
           className="mb-3 font-bold uppercase"
+          placeholder="category"
         >
           AI Video
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-2">
+        <Typography variant="h1" color="blue-gray" className="mb-2" placeholder="title">
           Exhibitions
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
+          placeholder="explanation"
         >
           중세부터 현대에 이르기까지 각 시대별 화풍과 음악에 해당하는 작품과
           K-POP을 테마로하는 독특하고 싱그러운 뮤직비디오,
