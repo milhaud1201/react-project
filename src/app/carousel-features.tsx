@@ -39,7 +39,7 @@ export function CarouselFeatures() {
                   className="mb-5 text-xl font-normal "
                 >
                   Stable diffusion <br />
-                  설명 3줄
+                  설명
                 </Typography>
                 <div className="flex items-center gap-2">
                   😃
