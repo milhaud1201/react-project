@@ -8,5 +8,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
   if (!children) {
     throw new Error("`Layout` component requires a `children` prop.");
   }
+}
 
 export default Layout;
