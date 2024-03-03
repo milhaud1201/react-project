@@ -2,15 +2,7 @@
 
 import React from "react";
 import { ThemeProvider } from "@material-tailwind/react";
-
-// Define ReactNode type using conditional type
-type ReactNode =
-  | React.ReactElement
-  | React.Fragment
-  | string
-  | number
-  | null
-  | undefined;
+import { ReactNode } from "@types/react";
 
 export function Layout({ children }: { children: ReactNode | undefined }) {
   return (
