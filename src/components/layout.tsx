@@ -3,7 +3,7 @@
 import React from "react";
 import { ThemeProvider } from "@material-tailwind/react";
 
-export function Layout({ children }: { children: ReactNode | undefined }) {
+export function Layout({ children }: { children: react.reactNode | undefined }) {
   return (
     <ThemeProvider>
       {children}
