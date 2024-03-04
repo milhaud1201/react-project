@@ -13,7 +13,7 @@ interface BookCardProps {
   title: string;
   desc: string;
   category: string;
-  price?: string;
+  price: string;
   offPrice?: string;
 }
 
