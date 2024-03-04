@@ -39,7 +39,8 @@ export function CarouselFeatures() {
                   <Typography
                     variant="lead"
                     color="white"
-                    className="mb-5 text-xl font-normal "
+                    className="mb-5 text-xl font-normal"
+                    placeholder="팀원 리뷰"
                   >
                     Stable diffusion <br />
                     설명
@@ -50,6 +51,7 @@ export function CarouselFeatures() {
                       variant="small"
                       color="white"
                       className="font-medium uppercase"
+                      placeholder="팀원 리뷰"
                     >
                       팀원
                     </Typography>
